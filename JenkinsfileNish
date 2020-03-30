@@ -24,7 +24,7 @@ stage("uploadArtifactorytoNexus")
 {
 sh "${mavenHome}/bin/mvn deploy"
 }
-/*
+
 stage("DeployApplicationtoTomcat")
 {
 sshagent(['bbecbc19-22cb-498a-8275-d3c3e2bb8d82'])
@@ -32,7 +32,7 @@ sshagent(['bbecbc19-22cb-498a-8275-d3c3e2bb8d82'])
 sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war   ec2-user@13.232.6.227:/opt/apache-tomcat-9.0.31/webapps"  
 }
 }
-*/
+
 stage("send email Notification")
 {
 emailext body: '''Build is Over!!
