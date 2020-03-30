@@ -1,4 +1,6 @@
-node{
+node("node1")
+
+
 {
 
   //http://JenkinsServerIPAddress:8080/pipeline-syntax/globals#currentBuild
