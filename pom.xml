@@ -99,16 +99,12 @@
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
 	      <url>http://3.6.89.183:8081/repository/flipkart-releases/</url>
-	      <nexus.login>admin</nexus.login>
-	      <nexus.password>admin123</nexus.password>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
 	      <url>http://3.6.89.183:8081/repository/flipkart-snapshot/</url>
-	      <nexus.login>admin</nexus.login>
-	      <nexus.password>admin123</nexus.password>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
